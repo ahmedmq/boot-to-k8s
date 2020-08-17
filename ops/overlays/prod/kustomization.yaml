@@ -1,7 +1,7 @@
 bases:
 - ../../base
-namespace: boot-to-k8s-dev
-namePrefix: dev-
+namespace: boot-to-k8s-prod
+namePrefix: prod-
 patchesStrategicMerge:
 - config-map.yaml
 
