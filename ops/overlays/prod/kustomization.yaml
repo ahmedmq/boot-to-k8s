@@ -3,7 +3,6 @@ bases:
 namespace: boot-to-k8s-prod
 namePrefix: prod-
 patchesStrategicMerge:
-- deployment_patch.yaml
 - memorylimit_patch.yaml
 - healthcheck_patch.yaml
 - config-map.yaml
