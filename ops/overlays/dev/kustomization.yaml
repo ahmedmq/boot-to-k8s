@@ -3,6 +3,7 @@ kind: Kustomization
 resources:
   - ../../base/deployment.yaml
   - ../../base/service.yaml
+  - ../../base/config-map.yaml
 namespace: dev
 images:
   - name: ahmedmq/boot-to-k8s # used for Kustomize matching

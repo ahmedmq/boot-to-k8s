@@ -3,10 +3,10 @@ kind: Kustomization
 resources:
 - ../../base/deployment.yaml
 - ../../base/service.yaml
+- ../../base/config-map.yaml
 namespace: prod
 namePrefix: prod-
 patchesStrategicMerge:
-- patch.yaml
 - memorylimit_patch.yaml
 - healthcheck_patch.yaml
 commonLabels:
