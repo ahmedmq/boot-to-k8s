@@ -1,0 +1,6 @@
+apiVersion: projects.vmware.com/v1alpha1
+kind: Project
+metadata:
+    name: boot-to-k8s
+spec:
+   access: []

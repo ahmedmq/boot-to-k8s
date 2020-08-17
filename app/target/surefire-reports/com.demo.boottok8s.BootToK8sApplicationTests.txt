@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.demo.boottok8s.BootToK8sApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.577 s - in com.demo.boottok8s.BootToK8sApplicationTests

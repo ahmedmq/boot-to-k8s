@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: boot-to-k8s
+  name: boot-to-k8s-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: boot-to-k8s
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: boot-to-k8s
+    spec:
+      containers:
+      - image: ahmedmq/boot-to-k8s
+        name: boot-to-k8s
+        resources: {}
+status: {}

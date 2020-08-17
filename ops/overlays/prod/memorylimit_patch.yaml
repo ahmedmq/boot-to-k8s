@@ -1,0 +1,14 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: boot-to-k8s
+spec:
+  template:
+    spec:
+      containers:
+        - name: boot-to-k8s
+          resources:
+            limits:
+              memory: 256Mi
+            requests:
+              memory: 256Mi
