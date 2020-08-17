@@ -1,9 +1,5 @@
-apiVersion: kustomize.config.k8s.io/v1beta1
-kind: Kustomization
-resources:
-- ../../base/deployment.yaml
-- ../../base/service.yaml
-- ../../base/config-map.yaml
+bases:
+- ../../base
 namespace: boot-to-k8s-prod
 namePrefix: prod-
 patchesStrategicMerge:

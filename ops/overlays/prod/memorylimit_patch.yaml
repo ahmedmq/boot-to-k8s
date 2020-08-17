@@ -9,6 +9,6 @@ spec:
         - name: boot-to-k8s
           resources:
             limits:
-              memory: 256Mi
+              memory: 1Gi
             requests:
-              memory: 256Mi
+              memory: 1Gi
