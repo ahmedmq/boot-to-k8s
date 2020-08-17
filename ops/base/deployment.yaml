@@ -18,5 +18,11 @@ spec:
       containers:
       - image: ahmedmq/boot-to-k8s
         name: boot-to-k8s
+        env: 
+        - name: message
+          valueFrom:
+            configMapKeyRef:
+              name: boot-to-k8s-configmap
+              key: message
         resources: {}
 status: {}
