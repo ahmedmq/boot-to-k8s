@@ -1,10 +1,7 @@
 bases:
 - ../../base
-namespace: boot-to-k8s-prod
-namePrefix: prod-
+namespace: boot-to-k8s-dev
+namePrefix: dev-
 patchesStrategicMerge:
-- memorylimit_patch.yaml
-- healthcheck_patch.yaml
 - config-map.yaml
-commonLabels:
-  env: prod
+
