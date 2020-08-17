@@ -2,7 +2,5 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: boot-to-k8s-deployment
-  labels:
-    app: boot-to-k8s
 spec:
   replicas: 2
