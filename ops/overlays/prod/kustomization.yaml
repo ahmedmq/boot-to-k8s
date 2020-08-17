@@ -6,5 +6,6 @@ patchesStrategicMerge:
 - deployment_patch.yaml
 - memorylimit_patch.yaml
 - healthcheck_patch.yaml
+- config-map.yaml
 commonLabels:
   env: prod

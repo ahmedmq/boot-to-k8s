@@ -2,6 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: boot-to-k8s
+  labels:
+    app: boot-to-k8s
 spec:
   template:
     spec:
